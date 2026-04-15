@@ -12,12 +12,12 @@
         <Copyright>Copyright MIT LICENSE 2026</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageTags>web, framework, lib, micro-service, grpc, https, mvc, net10</PackageTags>
-        <RepositoryUrl>https://github.com/Artpupser/PupaMVCF.git</RepositoryUrl>
-        <Description>Simplify MVC web framework on csharp</Description>
+        <PackageTags>core, pupalib, lib, net10</PackageTags>
+        <RepositoryUrl>https://github.com/Artpupser/PupaLib.Core.git</RepositoryUrl>
+        <Description>Performance core, for easy develop projects on csharp</Description>
         <PackageFlatten>false</PackageFlatten>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.0.0</Version>
+        <Version>0.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>

@@ -25,7 +25,12 @@ jobs:
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '10.0.x'
-          cache: true
+          
+      - name: "Cache Nuget"
+        uses: actions/cache@5
+        with:
+          path: ~/.nuget/pacakges
+          key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj') }}
 
       - name: "Resotre all projects in solution"
         run: dotnet restore
@@ -53,7 +58,12 @@ jobs:
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '10.0.x'
-          cache: true
+
+      - name: "Cache Nuget"
+        uses: actions/cache@4
+        with:
+          path: ~/.nuget/pacakges
+          key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj') }}
       
       - name: "Restore package"
         run: dotnet restore ${{ env.PROJECT_LIB_PATH }}
