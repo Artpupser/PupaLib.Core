@@ -27,7 +27,7 @@ jobs:
           dotnet-version: '10.0.x'
           
       - name: "Cache Nuget"
-        uses: actions/cache@5
+        uses: actions/cache@4
         with:
           path: ~/.nuget/pacakges
           key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj') }}

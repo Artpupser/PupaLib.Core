@@ -25,10 +25,10 @@ jobs:
           
       - name: "Cache Nuget"
         uses: actions/cache@4
-        with: 
+        with:
           path: ~/.nuget/pacakges
           key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj') }}
-      
+          
       - name: "Resotre all projects in solution"
         run: dotnet restore 
 
