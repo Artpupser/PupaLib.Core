@@ -18,6 +18,7 @@
         <PackageFlatten>false</PackageFlatten>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>0.0.1</Version>
+        <RootNamespace>PupaLib.Core</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
