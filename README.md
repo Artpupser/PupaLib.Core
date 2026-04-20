@@ -26,6 +26,10 @@
 
 ## Devlog
 
+### v0.0.2
+- Extended Option struct, added: Match, Bind, Map methods
+- Created Eventer class, simplify execute/subscribe/unsubscribe events
+
 ### v0.0.1
 
 - Created Option struct for simplify boolean result, with T content

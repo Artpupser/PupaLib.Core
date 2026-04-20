@@ -17,7 +17,7 @@
         <Description>Performance core, for easy develop projects on csharp</Description>
         <PackageFlatten>false</PackageFlatten>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <RootNamespace>PupaLib.Core</RootNamespace>
     </PropertyGroup>
 
